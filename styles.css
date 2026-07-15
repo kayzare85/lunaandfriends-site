@@ -403,7 +403,7 @@ a { color: inherit; text-decoration: none; }
 
 /* Key-art flavour banner */
 .flavour { margin: 0 0 32px; border-radius: 18px; overflow: hidden; border: 1px solid var(--border); line-height: 0; }
-.flavour img { width: 100%; aspect-ratio: 24 / 8; object-fit: cover; object-position: center 42%; display: block; }
+.flavour img { width: 100%; aspect-ratio: 24 / 8; object-fit: cover; object-position: center 62%; display: block; }
 
 /* ---------- Cars grid ---------- */
 .cars-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
