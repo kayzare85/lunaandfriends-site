@@ -3,16 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Luna &amp; Friends Ltd — cartoons, toys &amp; games for children and families</title>
-  <meta name="description" content="Luna & Friends Ltd is an independent studio making things children and families love — cartoons, toys, and games, including the Apple Watch racer Wrist Racer." />
+  <title>Wrist Racer — a lane-dodging arcade racer for Apple Watch | Luna &amp; Friends Ltd</title>
+  <meta name="description" content="Wrist Racer is a lane-dodging arcade racer built for Apple Watch — Digital Crown steering, 60fps, NOS boosts, 21 unlockable cars, Game Center leaderboards. Free on the App Store, with an iPhone companion app." />
   <meta name="theme-color" content="#0A0A0A" />
+  <meta property="og:title" content="Wrist Racer — arcade racing on your wrist" />
+  <meta property="og:description" content="A lane-dodging arcade racer built for Apple Watch. Free on the App Store, with an iPhone companion app." />
+  <meta property="og:image" content="https://lunaandfriends.com/images/shots/garage.png" />
+  <meta property="og:type" content="website" />
   <link rel="icon" href="images/favicon.ico" sizes="any" />
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png" />
   <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
+<body class="lp">
   <header class="nav">
     <div class="wrap nav-inner">
       <a class="brand" href="index.html" aria-label="Luna & Friends home">
@@ -20,71 +24,184 @@
         <span class="brand-name">Luna &amp; Friends</span>
       </a>
       <nav class="nav-links">
+        <a href="#cars">Cars</a>
+        <a href="#press">Press</a>
         <a href="privacy.html">Privacy</a>
-        <a href="support.html">Support</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <section class="hero">
-      <div class="wrap">
-        <img class="hero-mascot" src="images/mascot.png" alt="Luna, the Luna & Friends cat mascot, in front of a warm sun" />
-        <h1>Luna <span class="amp">&amp;</span> Friends Ltd</h1>
-        <p class="tagline">An independent studio making things children and families love — cartoons, toys, and games.</p>
-      </div>
-    </section>
-
-    <section class="section" id="cartoons">
-      <div class="wrap">
-        <p class="eyebrow">Cartoons</p>
-        <div class="card">
-          <h2>Original animated stories</h2>
-          <p>Original animated stories, currently in production — coming later this year.</p>
-          <span class="status">In production</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="toys">
-      <div class="wrap">
-        <p class="eyebrow">Toys</p>
-        <div class="card">
-          <h2>Toys built around our characters</h2>
-          <p>Designed alongside our characters. In production, arriving later this year.</p>
-          <span class="status">In production</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="games">
-      <div class="wrap">
-        <p class="eyebrow">Games</p>
-        <div class="card game-card">
-          <div class="game-copy">
-            <h2 class="game-title"><img src="images/wrist-racer-logo.png" alt="Wrist Racer" /></h2>
-            <p>A lane-dodging arcade racer built for Apple Watch, with a companion iPhone app. Coming soon to the App Store.</p>
-            <span class="status">Coming soon</span>
+    <!-- ===================== HERO ===================== -->
+    <section class="lp-hero">
+      <div class="wrap lp-hero-inner">
+        <div class="lp-hero-copy">
+          <div class="lp-lockup">
+            <img class="lp-appicon" src="images/appicon.png" alt="Wrist Racer app icon" />
+            <img class="lp-logo" src="images/wrist-racer-logo.png" alt="Wrist Racer" />
           </div>
-          <div class="game-media">
-            <img src="images/wrist-racer-hero.png" alt="Wrist Racer key art — a red muscle car racing down a neon city highway" />
-          </div>
+          <p class="lp-tagline">A lane-dodging arcade racer built for Apple Watch.</p>
+          <p class="lp-meta">
+            <span class="lp-chip live">Out now</span>
+            <span class="lp-chip">Free · in-app purchases</span>
+            <span class="lp-chip">watchOS + iPhone</span>
+          </p>
+          <a class="appstore-badge" href="https://apps.apple.com/app/wrist-racer-watch-racing/id6788880278" target="_blank" rel="noopener" aria-label="Download Wrist Racer on the App Store">
+            <svg viewBox="0 0 176 60" role="img" aria-label="Download on the App Store" xmlns="http://www.w3.org/2000/svg">
+              <rect x="1" y="1" width="174" height="58" rx="12" fill="#000000" stroke="#A6A6A6" stroke-width="1"/>
+              <path transform="translate(17,16) scale(1.16)" fill="#ffffff" d="M17.05 12.04c-.03-2.6 2.13-3.85 2.22-3.91-1.21-1.77-3.1-2.02-3.77-2.05-1.6-.16-3.13.94-3.94.94-.81 0-2.07-.92-3.4-.9-1.75.03-3.36 1.02-4.26 2.58-1.82 3.15-.47 7.82 1.3 10.38.86 1.25 1.89 2.66 3.24 2.61 1.3-.05 1.79-.84 3.36-.84 1.57 0 2.01.84 3.39.81 1.4-.02 2.29-1.28 3.15-2.54.99-1.46 1.4-2.87 1.42-2.94-.03-.01-2.72-1.04-2.75-4.15zM14.62 4.44c.72-.87 1.2-2.08 1.07-3.29-1.03.04-2.28.69-3.02 1.56-.66.77-1.24 2-1.09 3.18 1.15.09 2.32-.58 3.04-1.45z"/>
+              <text x="50" y="25" fill="#ffffff" font-family="-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="9" letter-spacing="0.4">Download on the</text>
+              <text x="49" y="46" fill="#ffffff" font-family="-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="20" font-weight="600">App Store</text>
+            </svg>
+          </a>
+          <p class="launch-note">Launched 15 July 2026 · by Luna &amp; Friends Ltd</p>
+        </div>
+        <div class="lp-hero-media">
+          <img src="images/wrist-racer-hero.png" alt="Wrist Racer — a red muscle car racing down a neon pixel-art city highway" width="1000" height="677" />
         </div>
       </div>
     </section>
 
-    <section class="contact" id="contact">
+    <!-- ===================== GAMEPLAY ===================== -->
+    <section class="lp-section" id="gameplay">
       <div class="wrap">
-        <h2>Get in touch</h2>
-        <p>Working on something with us, or just curious? We'd love to hear from you.</p>
-        <a class="mail-btn" href="mailto:kay@lunaandfriends.com">kay@lunaandfriends.com</a>
+        <div class="lp-head">
+          <p class="eyebrow">In the game</p>
+          <h2>Real racing on your wrist</h2>
+          <p>Steer with the Digital Crown and dodge traffic at 60fps on Apple Watch — then manage your garage, store and stats in the iPhone companion app.</p>
+        </div>
+
+        <p class="screens-label">On Apple Watch</p>
+        <div class="screens-row watch">
+          <figure class="screen watch">
+            <img loading="lazy" decoding="async" src="images/screens/watch_race1.png" alt="Wrist Racer gameplay on Apple Watch — dodging traffic on the highway" />
+            <figcaption>Dodge the traffic</figcaption>
+          </figure>
+          <figure class="screen watch">
+            <img loading="lazy" decoding="async" src="images/screens/watch_race2.png" alt="Wrist Racer gameplay on Apple Watch — racing down the road" />
+            <figcaption>60fps on the wrist</figcaption>
+          </figure>
+          <figure class="screen watch">
+            <img loading="lazy" decoding="async" src="images/screens/watch_gameover.png" alt="Wrist Racer game-over screen showing score, NOS and revive" />
+            <figcaption>Chase your best score</figcaption>
+          </figure>
+        </div>
+
+        <p class="screens-label">On iPhone — companion app</p>
+        <div class="screens-row phone">
+          <figure class="screen phone">
+            <img loading="lazy" decoding="async" src="images/screens/phone_garage.png" alt="Wrist Racer iPhone garage screen with the RED Rocket car" />
+            <figcaption>Your garage — 21 cars</figcaption>
+          </figure>
+          <figure class="screen phone">
+            <img loading="lazy" decoding="async" src="images/screens/phone_home.png" alt="Wrist Racer iPhone home screen — play, garage, store and leaderboard" />
+            <figcaption>Garage, store &amp; leaderboard</figcaption>
+          </figure>
+          <figure class="screen phone">
+            <img loading="lazy" decoding="async" src="images/screens/phone_stats.png" alt="Wrist Racer iPhone stats screen with achievements" />
+            <figcaption>Track your stats</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== THE CARS ===================== -->
+    <section class="lp-section" id="cars">
+      <div class="wrap">
+        <div class="lp-head">
+          <p class="eyebrow">The cars</p>
+          <h2>21 cars to unlock</h2>
+          <p>From street legends to off-road beasts — every car in the Wrist Racer garage.</p>
+        </div>
+        <figure class="flavour">
+          <img loading="lazy" decoding="async" src="images/shots/garage.png" alt="Pixel-art Wrist Racer garage with the RED Rocket muscle car" />
+        </figure>
+        <div class="cars-grid">
+          <div class="car-cell"><img loading="lazy" decoding="async" src="images/cars/horizon_gt.png" alt="Horizon GT" /><span>Horizon GT</span></div>
+          <div class="car-cell"><img loading="lazy" decoding="async" src="images/cars/blackjack.png" alt="Blackjack" /><span>Blackjack</span></div>
+          <div class="car-cell"><img loading="lazy" decoding="async" src="images/cars/green_venom.png" alt="Green Venom" /><span>Green Venom</span></div>
+          <div class="car-cell"><img loading="lazy" decoding="async" src="images/cars/inferno_x.png" alt="Inferno X" /><span>Inferno X</span></div>
+          <div class="car-cell"><img loading="lazy" decoding="async" src="images/cars/ironhawk.png" alt="Ironhawk" /><span>Ironhawk</span></div>
+          <div class="car-cell"><img loading="lazy" decoding="async" src="images/cars/nightstalker.png" alt="Nightstalker" /><span>Nightstalker</span></div>
+          <div class="car-cell"><img loading="lazy" decoding="async" src="images/cars/nova_vx.png" alt="Nova VX" /><span>Nova VX</span></div>
+          <div class="car-cell"><img loading="lazy" decoding="async" src="images/cars/pulse_rz.png" alt="Pulse RZ" /><span>Pulse RZ</span></div>
+          <div class="car-cell"><img loading="lazy" decoding="async" src="images/cars/red_rocket.png" alt="RED Rocket" /><span>RED Rocket</span></div>
+          <div class="car-cell"><img loading="lazy" decoding="async" src="images/cars/rock_hopper.png" alt="Rock Hopper" /><span>Rock Hopper</span></div>
+          <div class="car-cell"><img loading="lazy" decoding="async" src="images/cars/sahara_xl.png" alt="Sahara XL" /><span>Sahara XL</span></div>
+          <div class="car-cell"><img loading="lazy" decoding="async" src="images/cars/sentinel_r3.png" alt="Sentinel R3" /><span>Sentinel R3</span></div>
+          <div class="car-cell"><img loading="lazy" decoding="async" src="images/cars/solaris_gt.png" alt="Solaris GT" /><span>Solaris GT</span></div>
+          <div class="car-cell"><img loading="lazy" decoding="async" src="images/cars/speedmaster.png" alt="Speedmaster" /><span>Speedmaster</span></div>
+          <div class="car-cell"><img loading="lazy" decoding="async" src="images/cars/strada_gti.png" alt="Strada GTI" /><span>Strada GTI</span></div>
+          <div class="car-cell"><img loading="lazy" decoding="async" src="images/cars/terrabite.png" alt="Terrabite" /><span>Terrabite</span></div>
+          <div class="car-cell"><img loading="lazy" decoding="async" src="images/cars/trail_boss.png" alt="Trail Boss" /><span>Trail Boss</span></div>
+          <div class="car-cell"><img loading="lazy" decoding="async" src="images/cars/typhoon.png" alt="Typhoon" /><span>Typhoon</span></div>
+          <div class="car-cell"><img loading="lazy" decoding="async" src="images/cars/whitewind.png" alt="Whitewind" /><span>Whitewind</span></div>
+          <div class="car-cell"><img loading="lazy" decoding="async" src="images/cars/wilder_110.png" alt="Wilder 110" /><span>Wilder 110</span></div>
+          <div class="car-cell"><img loading="lazy" decoding="async" src="images/cars/yellowjacket.png" alt="Yellowjacket" /><span>Yellowjacket</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FEATURES ===================== -->
+    <section class="lp-section" id="features">
+      <div class="wrap">
+        <div class="lp-head">
+          <p class="eyebrow">Features</p>
+          <h2>Built for the wrist</h2>
+        </div>
+        <div class="features-grid">
+          <div class="feature"><span class="fi">🎛️</span><div><h3>Digital Crown steering</h3><p>Steer precisely with the crown — the Watch's most natural control.</p></div></div>
+          <div class="feature"><span class="fi">⚡</span><div><h3>60fps on Apple Watch</h3><p>Smooth, responsive arcade racing running natively on watchOS.</p></div></div>
+          <div class="feature"><span class="fi">🔥</span><div><h3>NOS boosts</h3><p>Trigger nitro bursts to blast past traffic and chase a high score.</p></div></div>
+          <div class="feature"><span class="fi">🚗</span><div><h3>21 unlockable cars</h3><p>Build your garage from street legends to off-road beasts.</p></div></div>
+          <div class="feature"><span class="fi">🏆</span><div><h3>Game Center leaderboards</h3><p>Climb the ranks and compare your best runs with players worldwide.</p></div></div>
+          <div class="feature"><span class="fi">🎁</span><div><h3>Daily rewards</h3><p>Come back each day for coins to spend on new cars.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PRESS KIT ===================== -->
+    <section class="lp-section" id="press">
+      <div class="wrap">
+        <div class="presskit">
+          <div>
+            <h2>Press kit</h2>
+            <p>Writing about Wrist Racer? Everything you need in one download — app icons, logo, key art, store banners, car renders, and a fact sheet.</p>
+            <a class="dl-btn" href="presskit.zip" download>⬇ Download press kit (.zip)</a>
+            <span class="dl-sub">Approx. 17 MB · PNG assets + factsheet.txt · Luna &amp; Friends Ltd</span>
+          </div>
+          <ul class="presskit-list">
+            <li>App icons — Apple Watch &amp; iPhone (1024×1024)</li>
+            <li>Wrist Racer logo (transparent PNG)</li>
+            <li>Key art — highway &amp; garage</li>
+            <li>Store pack banners ×4</li>
+            <li>Selected car renders</li>
+            <li>factsheet.txt — developer, launch, pricing, contact</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FINAL CTA ===================== -->
+    <section class="lp-cta">
+      <div class="wrap">
+        <h2>Get Wrist Racer</h2>
+        <p>Free on the App Store. Racing on your wrist, right now.</p>
+        <a class="appstore-badge" href="https://apps.apple.com/app/wrist-racer-watch-racing/id6788880278" target="_blank" rel="noopener" aria-label="Download Wrist Racer on the App Store">
+          <svg viewBox="0 0 176 60" role="img" aria-label="Download on the App Store" xmlns="http://www.w3.org/2000/svg">
+            <rect x="1" y="1" width="174" height="58" rx="12" fill="#000000" stroke="#A6A6A6" stroke-width="1"/>
+            <path transform="translate(17,16) scale(1.16)" fill="#ffffff" d="M17.05 12.04c-.03-2.6 2.13-3.85 2.22-3.91-1.21-1.77-3.1-2.02-3.77-2.05-1.6-.16-3.13.94-3.94.94-.81 0-2.07-.92-3.4-.9-1.75.03-3.36 1.02-4.26 2.58-1.82 3.15-.47 7.82 1.3 10.38.86 1.25 1.89 2.66 3.24 2.61 1.3-.05 1.79-.84 3.36-.84 1.57 0 2.01.84 3.39.81 1.4-.02 2.29-1.28 3.15-2.54.99-1.46 1.4-2.87 1.42-2.94-.03-.01-2.72-1.04-2.75-4.15zM14.62 4.44c.72-.87 1.2-2.08 1.07-3.29-1.03.04-2.28.69-3.02 1.56-.66.77-1.24 2-1.09 3.18 1.15.09 2.32-.58 3.04-1.45z"/>
+            <text x="50" y="25" fill="#ffffff" font-family="-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="9" letter-spacing="0.4">Download on the</text>
+            <text x="49" y="46" fill="#ffffff" font-family="-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif" font-size="20" font-weight="600">App Store</text>
+          </svg>
+        </a>
       </div>
     </section>
   </main>
 
   <footer class="footer">
     <div class="wrap footer-inner">
-      <span>&copy; 2026 Luna &amp; Friends Ltd · Registered in England</span>
+      <span>&copy; 2026 Luna &amp; Friends Ltd · <a href="mailto:kay@lunaandfriends.com" style="color:inherit">kay@lunaandfriends.com</a></span>
       <nav class="footer-links">
         <a href="privacy.html">Privacy</a>
         <a href="support.html">Support</a>
